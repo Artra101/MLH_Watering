@@ -5,10 +5,10 @@
  "description": "MLH for watering",
  "version": "3.0.1",
  "min_os_version_major": 6,
- "url": "https://raw.githubusercontent.com/etcipnja/MLH/master/MLH/manifest.json",
- "zip": "https://github.com/etcipnja/MLH/archive/master.zip",
+ "url": "https://raw.githubusercontent.com/Artra101/MLH_Watering/master/MLH_Watering/manifest.json",
+ "zip": "https://github.com/Artra101/MLH_Watering/archive/master.zip",
  "executable": "python",
- "args": ["MLH-master/MLH/main.py"],
+ "args": ["MLH_Watering-master/MLH_Watering/main.py"],
  "config": [
   {"name": "pointname", "label": "Filter by plant name", "value": "*"},
   {"name": "filter_meta", "label": "Filter by meta data (see documentation)", "value": "None"},
@@ -19,7 +19,7 @@
   {"name": "end", "label": "End Sequence Name (one time)", "value": "None"},
 
   {"name": "save_meta", "label": "Save in meta data (see documentation)", "value": "None"},
-  {"name": "default_z", "label": "default Z axis value when moving", "value": -300},
-  {"name": "action", "label": "What to do (test, real)", "value": "test"}
+  {"name": "default_z", "label": "default Z axis value when moving", "value": -300}
+
   ]
 }
