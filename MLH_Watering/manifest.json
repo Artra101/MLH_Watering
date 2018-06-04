@@ -11,7 +11,7 @@
  "args": ["MLH_Watering-master/MLH_Watering/main.py"],
  "config": [
 
-  {"name": "default_z", "label": "default Z axis value when moving", "value": -300}
+  {"name": "default_z", "label": "default Z axis value when moving", "value": -200}
 
   ]
 }

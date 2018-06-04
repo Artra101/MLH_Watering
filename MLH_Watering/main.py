@@ -23,14 +23,14 @@ class MLH(Farmware):
         self.args = {}
         self.args['s']={}
         self.args['pointname']     = "*"
-        self.args['default_z']     = int(os.environ.get(prefix + "_default_z", -300))
+        self.args['default_z']     = int(os.environ.get(prefix + "_default_z", -200))
         self.args['action']        = "real"
         self.args['filter_meta']   = "None"
         self.args['save_meta']     = "None"
-        self.args['s']['init']     = "Mount Watering Nozzle"
+        self.args['s']['init']     = "MLH Mount Watering Nozzle"
         self.args['s']['before']   = "None"
-        self.args['s']['after']    = "watering medium"
-        self.args['s']['end']      = "Dismount Watering Nozzle"
+        self.args['s']['after']    = "MLH watering"
+        self.args['s']['end']      = "MLH Dismount Watering Nozzle"
 
         try:
             self.args['pointname']=self.args['pointname'].lower().split(',')
