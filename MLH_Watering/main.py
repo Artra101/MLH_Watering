@@ -22,15 +22,15 @@ class MLH(Farmware):
         prefix = self.app_name.lower().replace('-', '_')
         self.args = {}
         self.args['s']={}
-        self.args['pointname']     = os.environ.get(prefix + "_pointname", 'Beets')
+        self.args['pointname']     = "*"
         self.args['default_z']     = int(os.environ.get(prefix + "_default_z", -300))
         self.args['action']        = "real"
-        self.args['filter_meta']   = os.environ.get(prefix + "_filter_meta", "None")
-        self.args['save_meta']     = os.environ.get(prefix + "_save_meta", "[('del','last_watering')]")
-        self.args['s']['init']     = os.environ.get(prefix + '_init', 'None')
-        self.args['s']['before']   = os.environ.get(prefix + '_before', 'None')
-        self.args['s']['after']    = os.environ.get(prefix + '_after', 'None')
-        self.args['s']['end']      = os.environ.get(prefix + '_end', 'None')
+        self.args['filter_meta']   = "None"
+        self.args['save_meta']     = "None"
+        self.args['s']['init']     = "Mount Watering Nozzle"
+        self.args['s']['before']   = "None"
+        self.args['s']['after']    = "watering medium"
+        self.args['s']['end']      = "Dismount Watering Nozzle"
 
         try:
             self.args['pointname']=self.args['pointname'].lower().split(',')
