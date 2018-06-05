@@ -25,7 +25,7 @@ class MLH(Farmware):
         self.args['pointname']     = "*"
         self.args['default_z']     = int(os.environ.get(prefix + "_default_z", -200))
         self.args['action']        = "real"
-        self.args['filter_meta']   = "None"
+        self.args['filter_meta']   = "[('plant_stage','planted')]"
         self.args['save_meta']     = "None"
         self.args['s']['init']     = "MLH Mount Watering Nozzle"
         self.args['s']['before']   = "None"
