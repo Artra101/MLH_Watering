@@ -1,3 +1,4 @@
+This is a copy of etcipnja's Farmware MLH that I changed a bit to my needs for the farmbot I had to make for a school project.
 # Problem:
 
 When you have to deal with a lot of plants you might be puzzled that you have to create a dedicated sequence for each
