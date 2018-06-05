@@ -17,8 +17,6 @@ The idea is to write a loop that executes needed sequences for all planted plant
 
 # Reference:
 
-- FILTER BY PLANT NAME
-    - Filter by plant names (comma separated) for example "Carrot, Beets", case insensitive, '*' means select all
 - INIT SEQUENCE NAME
     - "MLH Mount Watering Nozzle"
 - SEQUENCE NAME AFTER MOVE
